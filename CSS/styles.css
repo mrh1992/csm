@@ -6,7 +6,7 @@ body {
   margin: 0 50px 0 0;
   font-family: Helvetica, sans-serif;
   background-color: #f2f2f2;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -52,6 +52,17 @@ label {
 
 #hamburger-menu {
   display: none;
+}
+
+/* MAIN */
+
+main {
+  background-image: url(../Images/photo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 768px) {
