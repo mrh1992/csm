@@ -56,13 +56,15 @@ label {
 
 /* MAIN */
 
-main {
-  background-image: url(../Images/photo1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 800px;
-  margin-top: 0;
+.hero {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 130%;
+  left: 40%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -83,7 +85,8 @@ main {
     justify-content: center;
     text-align: center;
     display: block;
-    margin: 0 30px 0 0;
+    margin: 0 30px 0px 0;
+    margin-bottom: 50px;
   }
 
   #hamburger-menu:checked + .nav-list {
