@@ -57,16 +57,19 @@ label {
 @media only screen and (max-width: 768px) {
   label {
     display: block;
+    justify-content: center;
     cursor: pointer;
   }
 
   .nav-list {
+    justify-content: center;
     text-align: center;
     max-width: 100%;
     display: none;
   }
 
   .nav-list a {
+    justify-content: center;
     text-align: center;
     display: block;
     margin: 0 30px 0 0;
