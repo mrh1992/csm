@@ -6,6 +6,10 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+.logo {
+  max-height: 100px;
+}
+
 .nav {
   border-bottom: 1px solid #f2f2f2;
   text-align: right;
