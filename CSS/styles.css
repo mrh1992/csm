@@ -57,7 +57,6 @@ label {
   label {
     display: block;
     cursor: pointer;
-    overflow: hidden;
   }
 
   .nav-list {
@@ -67,6 +66,7 @@ label {
   }
 
   .nav-list a {
+    text-align: center;
     display: block;
     margin: 0 50px 0 0;
   }
