@@ -6,7 +6,7 @@ body {
   margin: 0 50px 0 0;
   font-family: Helvetica, sans-serif;
   background-color: #f2f2f2;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 header {
@@ -59,12 +59,6 @@ label {
 .hero {
   max-width: 100%;
   height: auto;
-}
-
-h1 {
-  position: absolute;
-  top: 130%;
-  left: 40%;
 }
 
 @media only screen and (max-width: 768px) {
