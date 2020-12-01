@@ -67,8 +67,7 @@ label {
 
   .nav-list a {
     display: block;
-    margin: 0;
-    margin-right: 60px;
+    margin: 0 50px 0 0;
   }
 
   #hamburger-menu:checked + .nav-list {
