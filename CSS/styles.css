@@ -17,12 +17,12 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  text-align: center;
   background-color: white;
 }
 
 .logo {
   max-height: 90px;
+  margin-left: 20px;
 }
 
 .nav {
@@ -42,10 +42,17 @@ header {
   color: black;
   margin: 0 50px;
   line-height: 90px;
+  border-bottom: 2px transparent;
 }
 
 .nav-list a:hover {
   color: #ff8c1a;
+  border-bottom: 2px solid #ff8c1a;
+}
+
+.nav-list a.active {
+  color: #ff8c1a;
+  border-bottom: 2px solid #ff8c1a;
 }
 
 label {
@@ -57,13 +64,6 @@ label {
 
 #hamburger-menu {
   display: none;
-}
-
-/* MAIN */
-
-.hero {
-  max-width: 100%;
-  height: auto;
 }
 
 @media only screen and (max-width: 768px) {
