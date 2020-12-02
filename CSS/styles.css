@@ -6,7 +6,7 @@ body {
   margin: 0 50px 0 0;
   font-family: Helvetica, sans-serif;
   background-color: #f2f2f2;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -17,13 +17,13 @@ header {
 }
 
 .logo {
-  max-height: 100px;
+  max-height: 90px;
 }
 
 .nav {
   text-align: center;
-  height: 100px;
-  line-height: 100px;
+  height: 90px;
+  line-height: 90px;
 }
 
 .nav-list {
@@ -36,7 +36,7 @@ header {
   text-decoration: none;
   color: black;
   margin: 0 50px;
-  line-height: 100px;
+  line-height: 90px;
 }
 
 .nav-list a:hover {
@@ -46,7 +46,7 @@ header {
 label {
   margin: 0 50px 0 0;
   font-size: 26px;
-  line-height: 100px;
+  line-height: 90px;
   display: none;
 }
 
@@ -76,13 +76,12 @@ label {
   }
 
   .nav-list a {
-    justify-content: center;
-    text-align: center;
     display: block;
-    margin: 0 20px 0px 0;
+    margin: 0 20px 0 0;
     position: relative;
     background-color: #f2f2f2;
-    padding: 40px;
+    padding: 35px;
+    line-height: 30px;
   }
 
   #hamburger-menu:checked + .nav-list {
