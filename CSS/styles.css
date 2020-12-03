@@ -76,58 +76,59 @@ nav ul li a:focus {
 }
 
 /* FOOTER */
-.footer {
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
   background-color: #ff8c1a;
   color: #000000;
+  line-height: 24px;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-h3 {
-  font-size: 26px;
-  font-weight: 600;
-  border-bottom: 2px solid #000000;
-}
-
-.footer-information {
-  display: flex;
-  flex-direction: column;
-  margin: 15px 0 15px 210px;
-}
-
-.footer-information a {
+footer a {
   text-decoration: none;
   color: #000000;
   font-size: 26px;
-  margin: 8px 0 8px 0;
+  padding-bottom: 0px;
 }
 
-.footer-information a:hover {
+footer a:hover {
   color: #ffffff;
 }
 
-.footer-contact {
+h3 {
+  color: #000000;
+  font-family: helvetica, sans-serif;
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+.body {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  margin: 15px 0 15px 0;
 }
 
-.contact-text {
-  margin: 8px 0 8px 0;
-  font-size: 18px;
+.footer-container {
+  flex: 1;
 }
 
-.social-media {
-  margin: 15px 210px 15px 0;
-  font-size: 36px;
+.footer-all {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-information {
+  padding: 20px;
+  min-width: 200px;
 }
 
 .fa-facebook-square,
 .fa-instagram {
-  margin: 8px 0 8px 0;
+  font-size: 36px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -157,10 +158,8 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media only screen and (min-width: 768px) {
+  .footer-all {
+    justify-content: space-evenly;
   }
 }
