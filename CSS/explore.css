@@ -2,6 +2,51 @@ p {
   margin-bottom: 20px;
 }
 
-.kids-img {
+.explore-img {
   max-width: 300px;
+}
+
+.explore-img1,
+.explore-img2 {
+  max-width: 200px;
+  margin: 5px;
+}
+
+.explore-box {
+  max-width: 300px;
+}
+
+.explore-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.explore-sidebar {
+  margin: 15px;
+  padding: 0;
+}
+
+.explore-sidebar a {
+  display: inline-block;
+  color: #000000;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.explore-sidebar a:hover {
+  color: #ff8c1a;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .explore-box {
+    max-width: 600px;
+  }
+
+  .explore-img-research {
+    display: flex;
+  }
 }
