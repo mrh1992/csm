@@ -1,19 +1,19 @@
-p {
+.explore-p {
   margin-bottom: 20px;
 }
 
 .explore-img {
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .explore-img1,
 .explore-img2 {
-  max-width: 200px;
+  max-width: 150px;
   margin: 5px;
 }
 
 .explore-box {
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .explore-container {
@@ -43,7 +43,7 @@ p {
 
 @media only screen and (min-width: 768px) {
   .explore-box {
-    max-width: 600px;
+    max-width: 700px;
   }
 
   .explore-img-research {
