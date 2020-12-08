@@ -1,34 +1,17 @@
-.exhibition-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.exhibition-grid {
+   display: grid;
+   max-width: 100%;
 }
 
-/* COSMOLOGY */
-.cosmology,
-.evolution {
-  max-width: 300px;
-  text-align: center;
-  margin: 30px;
-  background-color: #ffffff;
+.cosmology-img, .cosmology-p {
+    margin: 10px;
 }
+
 
 @media only screen and (min-width: 768px) {
-  .exhibition-container {
-    flex-direction: row;
-  }
+    .exhibition-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-  .cosmology {
-    max-width: 600px;
-    background-color: transparent;
-  }
 
-  .cosmology-p {
-    float: right;
-  }
-
-  .cosmology-img {
-    float: left;
-  }
-}
