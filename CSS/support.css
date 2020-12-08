@@ -1,22 +1,22 @@
-.exhibition-grid {
+.support-grid {
   display: grid;
   max-width: 100%;
 }
 
-.cosmology-img,
-.cosmology-p {
+.support-img,
+.support-p {
   margin: 10px;
 }
 
-.evolution-img,
-.evolution-p {
-  margin: 10px;
+p {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 768px) {
-  .exhibition-grid {
+  .support-grid {
     grid-template-columns: 40% 25%;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 50px;
   }
 }
