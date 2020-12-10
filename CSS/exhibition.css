@@ -3,19 +3,46 @@
   max-width: 100%;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
 .cosmology-img,
 .cosmology-p {
   margin: 10px;
+  margin-bottom: 30px;
 }
 
 .evolution-img,
 .evolution-p {
   margin: 10px;
+  margin-bottom: 30px;
+}
+
+.biology-img,
+.biology-p {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.robots-img,
+.robots-p {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.ecology-img,
+.ecology-p {
+  margin: 10px;
+  margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) {
   .exhibition-grid {
-    grid-template-columns: 40% 25%;
+    grid-template-columns: 450px 400px;
     justify-content: center;
     align-items: center;
   }
