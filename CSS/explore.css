@@ -12,6 +12,11 @@
   margin: 5px;
 }
 
+.explore-img-research {
+  display: flex;
+  justify-content: center;
+}
+
 .explore-box {
   max-width: 300px;
 }
@@ -45,10 +50,5 @@
 @media only screen and (min-width: 768px) {
   .explore-box {
     max-width: 700px;
-  }
-
-  .explore-img-research {
-    display: flex;
-    justify-content: center;
   }
 }

@@ -71,7 +71,6 @@ nav ul li a:hover {
 #hamburger-menu:checked ~ nav ul {
   max-height: 200px;
   padding: 15px 0;
-  transition: all 0, 5s;
 }
 
 /* HEADER ALL PAGES */
@@ -81,6 +80,21 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   color: #23763a;
+}
+
+/* BACK BUTTON ALL PAGES*/
+.btn-back {
+  background-color: transparent;
+  border: none;
+  font-size: 48px;
+  color: #23763a;
+  margin: 0 0 10px 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  color: #ff8c1a;
 }
 
 /* FOOTER */
@@ -99,7 +113,6 @@ footer a {
   text-decoration: none;
   color: #000000;
   font-size: 26px;
-  padding-bottom: 0px;
 }
 
 footer a:hover {
