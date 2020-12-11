@@ -16,7 +16,6 @@
 .news-container,
 .news-container-2,
 .news-container-3 {
-  max-width: 300px;
   text-align: center;
   margin: 30px;
   background-color: white;
@@ -25,5 +24,11 @@
 @media only screen and (min-width: 768px) {
   .flex-container {
     flex-direction: row;
+  }
+
+  .news-container,
+  .news-container-2,
+  .news-container-3 {
+    max-width: 400px;
   }
 }
