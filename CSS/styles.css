@@ -1,4 +1,10 @@
-/* NAVIGATION */
+:root {
+  --orange: #ff8c1a;
+  --green: #23763a;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #f2f2f2;
+}
 
 * {
   margin: 0;
@@ -8,12 +14,13 @@
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: var(--grey);
 }
 
+/* NAVIGATION */
 header {
   height: 100px;
-  background-color: white;
+  background-color: var(--white);
   padding: 10px 0;
 }
 
@@ -29,13 +36,13 @@ header {
 
 .hamburger-bars {
   font-size: 26px;
-  color: #000000;
+  color: var(--black);
   line-height: 80px;
 }
 
 nav {
   position: absolute;
-  background-color: #f2f2f2;
+  background-color: var(--grey);
   top: 100px;
   left: 0;
   width: 100%;
@@ -54,14 +61,14 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   padding: 12px;
-  color: black;
+  color: var(--black);
   text-decoration: none;
   font-size: 26px;
 }
 
 nav ul li a:hover {
-  color: #ff8c1a;
-  border-bottom: 2px solid #ff8c1a;
+  color: var(--orange);
+  border-bottom: 2px solid var(--orange);
 }
 
 #hamburger-menu {
@@ -79,7 +86,7 @@ h1 {
   margin: 30px;
   font-size: 36px;
   font-weight: bold;
-  color: #23763a;
+  color: var(--green);
 }
 
 /* BACK BUTTON ALL PAGES*/
@@ -87,14 +94,14 @@ h1 {
   background-color: transparent;
   border: none;
   font-size: 48px;
-  color: #23763a;
+  color: var(--green);
   margin: 0 0 10px 15px;
   padding: 5px;
   cursor: pointer;
 }
 
 .btn-back:hover {
-  color: #ff8c1a;
+  color: var(--orange);
 }
 
 /* FOOTER */
@@ -104,7 +111,7 @@ h1 {
 }
 
 footer {
-  background-color: #ff8c1a;
+  background-color: var(--orange);
   color: #000000;
   line-height: 24px;
 }
@@ -115,17 +122,17 @@ footer li {
 
 footer a {
   text-decoration: none;
-  color: #000000;
+  color: var(--black);
   font-size: 20px;
 }
 
 footer a:hover {
-  color: #ffffff;
+  color: var(--white);
   text-decoration: underline;
 }
 
 h3 {
-  color: #000000;
+  color: var(--black);
   font-family: helvetica, sans-serif;
   font-size: 26px;
   padding-bottom: 10px;
@@ -165,7 +172,7 @@ body {
   nav {
     position: relative;
     top: -10px;
-    background-color: white;
+    background-color: var(--white);
   }
 
   nav ul {

@@ -15,7 +15,7 @@
 }
 
 h2 {
-  color: #ff8c1a;
+  color: var(--orange);
   text-align: center;
   font-style: italic;
   font-weight: 400;

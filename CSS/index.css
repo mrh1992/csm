@@ -18,7 +18,7 @@
 .news-container-3 {
   text-align: center;
   margin: 30px;
-  background-color: white;
+  background-color: var(--white);
 }
 
 @media only screen and (min-width: 768px) {
