@@ -29,12 +29,12 @@
   margin-bottom: 50px;
 }
 
-.explore-sidebar {
+.breadcrumb {
   margin: 15px;
   padding: 0;
 }
 
-.explore-sidebar a {
+.breadcrumb a {
   display: inline-block;
   color: #000000;
   padding: 1px;
@@ -42,8 +42,11 @@
   font-size: 18px;
 }
 
-.explore-sidebar a:hover {
-  color: #ff8c1a;
+.highlighted {
+  background-color: #ff8c1a;
+}
+
+.breadcrumb a:hover {
   text-decoration: underline;
 }
 
