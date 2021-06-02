@@ -109,10 +109,14 @@ footer {
   line-height: 24px;
 }
 
+footer li {
+  padding-bottom: 8px;
+}
+
 footer a {
   text-decoration: none;
   color: #000000;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 footer a:hover {
