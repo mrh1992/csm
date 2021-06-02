@@ -12,7 +12,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="CSS/styles.css" rel="stylesheet" />
-    <link href="CSS/support.css" rel="stylesheet" />
+    <link href="CSS/contact.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -34,6 +34,52 @@
       </div>
     </header>
     <main>
+      <h1>Contact Us</h1>
+      <section class="contact-container">
+        <form id="contactform">
+          <div>
+            <label class="input-name">
+              Name (Required)
+              <input name="fullName" id="fullName" />
+            </label>
+            <div class="form-error" id="fullNameError">Name is required</div>
+          </div>
+
+          <div>
+            <label class="input-email">
+              Email (Required)
+              <input class="email" id="email" />
+            </label>
+            <div class="form-error" id="emailError">
+              Please enter a valid email address
+            </div>
+          </div>
+
+          <div>
+            <label class="input-subject">
+              Subject (Minimum 5 characters)
+              <input name="subject" id="subject" />
+            </label>
+            <div class="form-error" id="subjectError">
+              Subject must be at least 5 characters
+            </div>
+          </div>
+
+          <div>
+            <label class="input-message">
+              Message (Minimum 20 characters)
+              <input name="message" id="message" />
+            </label>
+            <div class="form-error" id="messageError">
+              Message must be at least 20 characters
+            </div>
+          </div>
+
+          <div class="submit-success">Your message is sent!</div>
+
+          <button class="contact-submit">Send</button>
+        </form>
+      </section>
       <a href="index.html"
         ><button class="btn-back"><i class="fas fa-arrow-left"></i></button
       ></a>
@@ -63,5 +109,6 @@
         </div>
       </section>
     </footer>
+    <script src="JS/contact.js"></script>
   </body>
 </html>
