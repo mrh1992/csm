@@ -1,0 +1,49 @@
+.visit-container,
+.visit-container2 {
+  display: grid;
+  max-width: 100%;
+  margin: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.opening-hours,
+.visit-text {
+  background-color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .visit-container {
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+  }
+
+  .visit-container2 {
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .visit-img {
+    margin-right: 20px;
+  }
+
+  .opening-hours {
+    margin-left: 20px;
+  }
+
+  .visit-img2 {
+    margin-left: 20px;
+  }
+
+  .visit-text {
+    margin-right: 20px;
+  }
+}
