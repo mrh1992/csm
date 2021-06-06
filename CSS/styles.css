@@ -80,7 +80,7 @@ nav ul li a:hover {
   padding: 15px 0;
 }
 
-/*Breadcrumb Navigation - Explore pages*/
+/* Breadcrumb Navigation */
 ul.breadcrumbs {
   margin: 20px;
 }
@@ -92,12 +92,12 @@ ul.breadcrumbs li {
 
 ul.breadcrumbs li + li:before {
   padding: 5px;
-  color: var(--black);
+  color: var(--orange);
   content: "/";
 }
 
 ul.breadcrumbs li a {
-  color: var(--black);
+  color: var(--orange);
   text-decoration: none;
 }
 
@@ -105,8 +105,9 @@ ul.breadcrumbs li a:hover {
   text-decoration: underline;
 }
 
-ul.breadcrumbs .highlighted {
-  color: var(--orange);
+.breadcrumbs li:last-child {
+  font-weight: bold;
+  color: var(--black);
 }
 
 /* HEADER ALL PAGES */
