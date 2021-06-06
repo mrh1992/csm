@@ -29,25 +29,33 @@
   margin-bottom: 50px;
 }
 
-.breadcrumb {
-  margin: 15px;
-  padding: 0;
+/*Breadcrumb Navigation - Explore pages*/
+ul.breadcrumbs-explore {
+  margin: 20px;
 }
 
-.breadcrumb a {
-  display: inline-block;
-  color: var(--black);
-  padding: 1px;
-  text-decoration: none;
+ul.breadcrumbs-explore li {
+  display: inline;
   font-size: 18px;
 }
 
-.highlighted {
-  background-color: var(--orange);
+ul.breadcrumbs-explore li + li:before {
+  padding: 5px;
+  color: var(--black);
+  content: "/";
 }
 
-.breadcrumb a:hover {
+ul.breadcrumbs-explore li a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+ul.breadcrumbs-explore li a:hover {
   text-decoration: underline;
+}
+
+ul.breadcrumbs-explore .highlighted {
+  color: var(--orange);
 }
 
 @media only screen and (min-width: 768px) {
